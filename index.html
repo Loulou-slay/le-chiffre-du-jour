@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le chiffre du jour - Aujourd'hui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Le chiffre du jour</h1>
+    <nav>
+      <a href="index.html">Aujourd'hui</a>
+      <a href="annee.html">Cette année</a>
+      <a href="apropos.html">À propos</a>
+    </nav>
+  </header>
+  <main>
+    <h2 id="daily-number-title">Le chiffre du jour est...</h2>
+    <div id="daily-number" class="highlight">🌍</div>
+    <p id="daily-description"></p>
+    <button onclick="generateNumber()">Découvrir un chiffre positif</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
