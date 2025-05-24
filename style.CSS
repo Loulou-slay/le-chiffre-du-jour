@@ -1,0 +1,92 @@
+/* Police Google Fonts (à ajouter dans le <head>) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fef6e4, #f9dcc4);
+  color: #333;
+}
+
+header {
+  background-color: #ff9f1c;
+  color: white;
+  padding: 1.5em 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe66d;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-top: 2em;
+}
+
+h2 {
+  color: #e07a5f;
+  font-size: 2em;
+}
+
+.highlight {
+  font-size: 4em;
+  margin: 1em 0;
+  color: #3d5a80;
+  text-align: center;
+}
+
+button {
+  background-color: #3d5a80;
+  color: white;
+  padding: 0.8em 2em;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 2em auto 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #293241;
+}
+
+.year-list {
+  list-style-type: '✨ ';
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+
+.year-list li {
+  margin-bottom: 1em;
+  color: #2a9d8f;
+}
+
+p {
+  font-size: 1.2e
